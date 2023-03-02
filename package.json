@@ -1,0 +1,42 @@
+{
+  "name": "@techtrain/junit-parser",
+  "description": "A JUnit XML parser.",
+  "license": "MIT OR Apache-2.0",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/junit-parser.umd.cjs",
+  "module": "./dist/junit-parser.js",
+  "exports": {
+    ".": {
+      "import": "./dist/junit-parser.js",
+      "require": "./dist/junit-parser.umd.cjs"
+    }
+  },
+  "packageManager": "pnpm@7.28.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue src",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx,.vue src --fix",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
+    "test": "vitest",
+    "preversion": "pnpm test",
+    "version": "pnpm build",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-dts": "^2.0.2",
+    "vitest": "^0.29.2"
+  }
+}
