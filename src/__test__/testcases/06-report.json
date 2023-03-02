@@ -1,0 +1,46 @@
+{
+  "tests": 4,
+  "errors": 0,
+  "failures": 1,
+  "suites": [
+    {
+      "name": "package/name1",
+      "time": "0.160",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestOne",
+          "time": "0.060"
+        },
+        {
+          "name": "TestTwo",
+          "time": "0.100"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    },
+    {
+      "name": "package/name2",
+      "time": "0.151",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestOne",
+          "time": "0.020",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "file_test.go:11: Error message\nfile_test.go:11: Longer\n\terror\n\tmessage."
+          }
+        },
+        {
+          "name": "TestTwo",
+          "time": "0.130"
+        }
+      ],
+      "errors": 0,
+      "failures": 1
+    }
+  ]
+}

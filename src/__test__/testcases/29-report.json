@@ -1,0 +1,20 @@
+{
+  "tests": 1,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "sixteen/cpu",
+      "time": "1.522",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkRingaround",
+          "time": "0.000013571"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "tests": 1,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "single/cpu",
+      "time": "9.467",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkRing",
+          "time": "0.000000074"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

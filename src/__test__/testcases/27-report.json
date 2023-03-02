@@ -1,0 +1,28 @@
+{
+  "tests": 3,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "really/small",
+      "time": "4.344",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkItsy",
+          "time": "0.000000045"
+        },
+        {
+          "name": "BenchmarkTeeny",
+          "time": "0.000000002"
+        },
+        {
+          "name": "BenchmarkWeeny",
+          "time": "0.000000000"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

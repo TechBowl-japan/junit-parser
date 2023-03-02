@@ -1,0 +1,25 @@
+{
+  "tests": 1,
+  "errors": 0,
+  "failures": 1,
+  "suites": [
+    {
+      "name": "race_test",
+      "time": "0.015",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestRace",
+          "time": "0.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "test output\n2 0xc4200153d0\n==================\nWARNING: DATA RACE\nWrite at 0x00c4200153d0 by goroutine 7:\n  race_test.TestRace.func1()\n      race_test.go:13 +0x3b\n\nPrevious write at 0x00c4200153d0 by goroutine 6:\n  race_test.TestRace()\n      race_test.go:15 +0x136\n  testing.tRunner()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:657 +0x107\n\nGoroutine 7 (running) created at:\n  race_test.TestRace()\n      race_test.go:14 +0x125\n  testing.tRunner()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:657 +0x107\n\nGoroutine 6 (running) created at:\n  testing.(*T).Run()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:697 +0x543\n  testing.runTests.func1()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:882 +0xaa\n  testing.tRunner()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:657 +0x107\n  testing.runTests()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:888 +0x4e0\n  testing.(*M).Run()\n      /usr/local/Cellar/go/1.8.3/libexec/src/testing/testing.go:822 +0x1c3\n  main.main()\n      _test/_testmain.go:52 +0x20f\n==================\ntesting.go:610: race detected during execution of test"
+          }
+        }
+      ],
+      "errors": 0,
+      "failures": 1
+    }
+  ]
+}

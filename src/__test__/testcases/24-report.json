@@ -1,0 +1,40 @@
+{
+  "tests": 6,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package3/baz",
+      "time": "1.382",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestNew",
+          "time": "0.000"
+        },
+        {
+          "name": "TestNew/no",
+          "time": "0.000"
+        },
+        {
+          "name": "TestNew/normal",
+          "time": "0.000"
+        },
+        {
+          "name": "TestWriteThis",
+          "time": "0.000"
+        },
+        {
+          "name": "BenchmarkDeepMerge",
+          "time": "0.000002611"
+        },
+        {
+          "name": "BenchmarkNext",
+          "time": "0.000000100"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

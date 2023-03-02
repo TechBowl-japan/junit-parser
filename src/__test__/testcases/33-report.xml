@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station01" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.078386">
+    <testsuite name="Tests\Station01\QuestionTest" file="/app/tests/Station01/QuestionTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.078386">
+      <testcase name="返り値の型がint型とbool型である" class="Tests\Station01\QuestionTest" classname="Tests.Station01.QuestionTest" file="/app/tests/Station01/QuestionTest.php" line="23" assertions="2" time="0.078386"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

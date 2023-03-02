@@ -1,0 +1,29 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 1,
+  "suites": [
+    {
+      "name": "github.com/jstemmer/test/failedsummary",
+      "time": "0.005",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestOne",
+          "time": "0.000"
+        },
+        {
+          "name": "Failure",
+          "time": "0.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "panic: panic"
+          }
+        }
+      ],
+      "errors": 0,
+      "failures": 1
+    }
+  ]
+}

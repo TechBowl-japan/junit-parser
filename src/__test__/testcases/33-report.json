@@ -1,0 +1,37 @@
+{
+  "tests": 1,
+  "failures": 0,
+  "errors": 0,
+  "suites": [
+    {
+      "name": "/app/tests/Station01",
+      "time": "0.078386",
+      "properties": {},
+      "tests": [],
+      "failures": 0,
+      "errors": 0,
+      "testReport": {
+        "name": "/app/tests/Station01",
+        "time": "0.078386",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "suites": [
+          {
+            "name": "Tests\\Station01\\QuestionTest",
+            "time": "0.078386",
+            "properties": {},
+            "tests": [
+              {
+                "name": "返り値の型がint型とbool型である",
+                "time": "0.078386"
+              }
+            ],
+            "failures": 0,
+            "errors": 0
+          }
+        ]
+      }
+    }
+  ]
+}

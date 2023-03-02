@@ -1,0 +1,24 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "pkg/count",
+      "time": "14.211",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkNew",
+          "time": "0.000000352"
+        },
+        {
+          "name": "BenchmarkFew",
+          "time": "0.000000102"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

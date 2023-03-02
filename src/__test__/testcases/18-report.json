@@ -1,0 +1,37 @@
+{
+  "tests": 3,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package1/foo",
+      "time": "0.400",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestA",
+          "time": "0.100"
+        },
+        {
+          "name": "TestB",
+          "time": "0.300"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    },
+    {
+      "name": "package2/bar",
+      "time": "4.200",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestC",
+          "time": "4.200"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

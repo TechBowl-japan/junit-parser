@@ -1,0 +1,24 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package/basic",
+      "time": "3.212",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkParse",
+          "time": "0.000000604"
+        },
+        {
+          "name": "BenchmarkReadingList",
+          "time": "0.000001425"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

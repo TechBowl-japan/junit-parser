@@ -1,0 +1,43 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 2,
+  "suites": [
+    {
+      "name": "package/panic",
+      "time": "0.003",
+      "properties": {},
+      "tests": [
+        {
+          "name": "Failure",
+          "time": "0.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "panic: init\nstacktrace"
+          }
+        }
+      ],
+      "errors": 0,
+      "failures": 1
+    },
+    {
+      "name": "package/panic2",
+      "time": "0.003",
+      "properties": {},
+      "tests": [
+        {
+          "name": "Failure",
+          "time": "0.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "panic: init\nstacktrace"
+          }
+        }
+      ],
+      "errors": 0,
+      "failures": 1
+    }
+  ]
+}

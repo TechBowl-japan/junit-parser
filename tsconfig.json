@@ -3,7 +3,7 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ESNext"],
     "moduleResolution": "Node",
     "strict": true,
     "resolveJsonModule": true,
@@ -19,5 +19,6 @@
     }
   },
   "references": [{ "path": "./tsconfig.node.json" }],
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

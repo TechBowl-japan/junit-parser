@@ -1,0 +1,43 @@
+{
+  "tests": 3,
+  "errors": 0,
+  "failures": 3,
+  "suites": [
+    {
+      "name": "pkg/parallel",
+      "time": "3.010",
+      "properties": {},
+      "tests": [
+        {
+          "name": "FirstTest",
+          "time": "2.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "Message from first\nSupplemental from first\nparallel_test.go:14: FirstTest error"
+          }
+        },
+        {
+          "name": "SecondTest",
+          "time": "1.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "Message from second\nparallel_test.go:23: SecondTest error"
+          }
+        },
+        {
+          "name": "ThirdTest",
+          "time": "0.010",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "Message from third\nparallel_test.go:32: ThirdTest error"
+          }
+        }
+      ],
+      "errors": 0,
+      "failures": 3
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "tests": 2,
+  "failures": 1,
+  "errors": 0,
+  "suites": [
+    {
+      "name": "package/name",
+      "time": "0.151",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestOne",
+          "time": "0.020",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "file_test.go:11: Error message\nfile_test.go:11: Longer\n\terror\n\tmessage."
+          }
+        },
+        {
+          "name": "TestTwo",
+          "time": "0.130"
+        }
+      ],
+      "failures": 1,
+      "errors": 0
+    }
+  ]
+}

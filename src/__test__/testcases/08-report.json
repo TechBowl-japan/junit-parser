@@ -1,0 +1,24 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "github.com/dmitris/test-go-junit-report",
+      "time": "0.440",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestDoFoo",
+          "time": "0.270"
+        },
+        {
+          "name": "TestDoFoo2",
+          "time": "0.160"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

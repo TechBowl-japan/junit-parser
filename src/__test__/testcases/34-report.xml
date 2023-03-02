@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/var/www/tests/Feature/LaravelStations/Station10" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.654881">
+    <testsuite name="Tests\Feature\LaravelStations\Station10\AdminMovieTest" file="/var/www/tests/Feature/LaravelStations/Station10/AdminMovieTest.php" tests="1" assertions="0" errors="1" warnings="0" failures="0" skipped="0" time="0.654881">
+      <testcase name="test管理者映画一覧に全ての映画のカラムが表示されているか" class="Tests\Feature\LaravelStations\Station10\AdminMovieTest" classname="Tests.Feature.LaravelStations.Station10.AdminMovieTest" file="/var/www/tests/Feature/LaravelStations/Station10/AdminMovieTest.php" line="16" assertions="0" time="0.425962">
+        <error type="Error">Tests\Feature\LaravelStations\Station10\AdminMovieTest::test管理者映画一覧に全ての映画のカラムが表示されているか
+Error: Class "App\Models\Movie" not found
+​
+/var/www/tests/Feature/LaravelStations/Station10/AdminMovieTest.php:20</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,49 @@
+{
+  "tests": 6,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "mycode/common",
+      "time": "7.267",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkParse",
+          "time": "0.000001591"
+        },
+        {
+          "name": "BenchmarkNewTask",
+          "time": "0.000000391"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    },
+    {
+      "name": "mycode/benchmarks/channels",
+      "time": "47.084",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkFanout/Channel/10",
+          "time": "0.000004673"
+        },
+        {
+          "name": "BenchmarkFanout/Channel/100",
+          "time": "0.000024965"
+        },
+        {
+          "name": "BenchmarkFanout/Channel/1000",
+          "time": "0.000195672"
+        },
+        {
+          "name": "BenchmarkFanout/Channel/10000",
+          "time": "0.002410200"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

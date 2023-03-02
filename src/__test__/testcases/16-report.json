@@ -1,0 +1,28 @@
+{
+  "tests": 3,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package/repeated-names",
+      "time": "0.001",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestRepeat",
+          "time": "0.000"
+        },
+        {
+          "name": "TestRepeat",
+          "time": "0.000"
+        },
+        {
+          "name": "TestRepeat",
+          "time": "0.000"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

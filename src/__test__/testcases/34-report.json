@@ -1,0 +1,42 @@
+{
+  "tests": 1,
+  "failures": 0,
+  "errors": 1,
+  "suites": [
+    {
+      "name": "/var/www/tests/Feature/LaravelStations/Station10",
+      "time": "0.654881",
+      "properties": {},
+      "tests": [],
+      "failures": 0,
+      "errors": 1,
+      "testReport": {
+        "name": "/var/www/tests/Feature/LaravelStations/Station10",
+        "time": "0.654881",
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "suites": [
+          {
+            "name": "Tests\\Feature\\LaravelStations\\Station10\\AdminMovieTest",
+            "time": "0.654881",
+            "properties": {},
+            "tests": [
+              {
+                "name": "test管理者映画一覧に全ての映画のカラムが表示されているか",
+                "time": "0.425962",
+                "error": {
+                  "content": "Tests\\Feature\\LaravelStations\\Station10\\AdminMovieTest::test管理者映画一覧に全ての映画のカラムが表示されているか\nError: Class \"App\\Models\\Movie\" not found\n\u200B\n/var/www/tests/Feature/LaravelStations/Station10/AdminMovieTest.php:20",
+                  "message": "",
+                  "type": "Error"
+                }
+              }
+            ],
+            "failures": 0,
+            "errors": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "tests": 18,
+  "errors": 0,
+  "failures": 3,
+  "suites": [
+    {
+      "name": "package/name",
+      "time": "0.050",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestOne",
+          "time": "0.010"
+        },
+        {
+          "name": "TestOne/Child",
+          "time": "0.020"
+        },
+        {
+          "name": "TestOne/Child#01",
+          "time": "0.030"
+        },
+        {
+          "name": "TestOne/Child=02",
+          "time": "0.040"
+        },
+        {
+          "name": "TestTwo",
+          "time": "0.010"
+        },
+        {
+          "name": "TestTwo/Child",
+          "time": "0.020"
+        },
+        {
+          "name": "TestTwo/Child#01",
+          "time": "0.030"
+        },
+        {
+          "name": "TestTwo/Child=02",
+          "time": "0.040"
+        },
+        {
+          "name": "TestThree",
+          "time": "0.010"
+        },
+        {
+          "name": "TestThree/a#1",
+          "time": "0.020"
+        },
+        {
+          "name": "TestThree/a#1/b#1",
+          "time": "0.030"
+        },
+        {
+          "name": "TestThree/a#1/b#1/c#1",
+          "time": "0.040"
+        },
+        {
+          "name": "TestFour",
+          "time": "0.020",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": ""
+          }
+        },
+        {
+          "name": "TestFour/#00",
+          "time": "0.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "example.go:12: Expected abc  OBTAINED:\n\txyz\nexample.go:123: Expected and obtained are different."
+          }
+        },
+        {
+          "name": "TestFour/#01",
+          "time": "0.000"
+        },
+        {
+          "name": "TestFour/#02",
+          "time": "0.000"
+        },
+        {
+          "name": "TestFive",
+          "time": "0.000"
+        },
+        {
+          "name": "TestSix",
+          "time": "0.000",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "example.go:371: This should not fail!"
+          }
+        }
+      ],
+      "errors": 0,
+      "failures": 3
+    }
+  ]
+}

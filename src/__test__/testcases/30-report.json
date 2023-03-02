@@ -1,0 +1,129 @@
+{
+  "tests": 17,
+  "errors": 0,
+  "failures": 9,
+  "suites": [
+    {
+      "name": "package/name1",
+      "time": "4.567",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestFailWithStdoutAndTestOutput",
+          "time": "0.100",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "multi\nline\nstdout\nsingle-line stdout\nexample_test.go:13: single-line error\nexample_test.go:14: multi\n    line\n    error"
+          }
+        },
+        {
+          "name": "TestFailWithStdoutAndNoTestOutput",
+          "time": "0.150",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "multi\nline\nstdout\nsingle-line stdout"
+          }
+        },
+        {
+          "name": "TestFailWithTestOutput",
+          "time": "0.200",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "example_test.go:26: single-line error\nexample_test.go:27: multi\n    line\n    error"
+          }
+        },
+        {
+          "name": "TestFailWithNoTestOutput",
+          "time": "0.250",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": ""
+          }
+        },
+        {
+          "name": "TestPassWithStdoutAndTestOutput",
+          "time": "0.300"
+        },
+        {
+          "name": "TestPassWithStdoutAndNoTestOutput",
+          "time": "0.350"
+        },
+        {
+          "name": "TestPassWithTestOutput",
+          "time": "0.400"
+        },
+        {
+          "name": "TestPassWithNoTestOutput",
+          "time": "0.500"
+        },
+        {
+          "name": "TestSubtests",
+          "time": "2.270",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": ""
+          }
+        },
+        {
+          "name": "TestSubtests/TestFailWithStdoutAndTestOutput",
+          "time": "0.100",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "1 multi\nline\nstdout\n1 single-line stdout\nexample_test.go:65: 1 single-line error\nexample_test.go:66: 1 multi\n    line\n    error"
+          }
+        },
+        {
+          "name": "TestSubtests/TestFailWithStdoutAndNoTestOutput",
+          "time": "0.150",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "2 multi\nline\nstdout\n2 single-line stdout"
+          }
+        },
+        {
+          "name": "TestSubtests/TestFailWithTestOutput",
+          "time": "0.200",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": "example_test.go:78: 3 single-line error\nexample_test.go:79: 3 multi\n    line\n    error"
+          }
+        },
+        {
+          "name": "TestSubtests/TestFailWithNoTestOutput",
+          "time": "0.250",
+          "failure": {
+            "message": "Failed",
+            "type": "",
+            "content": ""
+          }
+        },
+        {
+          "name": "TestSubtests/TestPassWithStdoutAndTestOutput",
+          "time": "0.300"
+        },
+        {
+          "name": "TestSubtests/TestPassWithStdoutAndNoTestOutput",
+          "time": "0.350"
+        },
+        {
+          "name": "TestSubtests/TestPassWithTestOutput",
+          "time": "0.400"
+        },
+        {
+          "name": "TestSubtests/TestPassWithNoTestOutput",
+          "time": "0.500"
+        }
+      ],
+      "errors": 0,
+      "failures": 9
+    }
+  ]
+}

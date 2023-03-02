@@ -1,0 +1,24 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package/name",
+      "time": "0.160",
+      "properties": {},
+      "tests": [
+        {
+          "name": "TestZ",
+          "time": "0.060"
+        },
+        {
+          "name": "TestA",
+          "time": "0.100"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

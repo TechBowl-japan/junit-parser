@@ -1,0 +1,15 @@
+{
+  "tests": 0,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package/empty",
+      "time": "0.001",
+      "properties": {},
+      "tests": [],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}

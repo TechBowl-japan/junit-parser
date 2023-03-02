@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [dts()],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/main.ts'),
+      entry: resolve(__dirname, 'src/index.ts'),
       name: '@techtrain/junit-parser',
       fileName: 'junit-parser',
       formats: ['es', 'cjs'],

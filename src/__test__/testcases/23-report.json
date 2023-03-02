@@ -1,0 +1,24 @@
+{
+  "tests": 2,
+  "errors": 0,
+  "failures": 0,
+  "suites": [
+    {
+      "name": "package/one",
+      "time": "9.415",
+      "properties": {},
+      "tests": [
+        {
+          "name": "BenchmarkIpsHistoryInsert",
+          "time": "0.000052568"
+        },
+        {
+          "name": "BenchmarkIpsHistoryLookup",
+          "time": "0.000015208"
+        }
+      ],
+      "errors": 0,
+      "failures": 0
+    }
+  ]
+}
