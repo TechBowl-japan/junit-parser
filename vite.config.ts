@@ -14,7 +14,10 @@ export default defineConfig({
       formats: ['es', 'cjs'],
     },
     rollupOptions: {
-      external: [],
+      external: [
+        'fast-xml-parser',
+        'he',
+      ],
       output: {},
     },
   },

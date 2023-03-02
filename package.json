@@ -15,6 +15,7 @@
       "require": "./dist/junit-parser.umd.cjs"
     }
   },
+  "types": "./dist/index.d.ts",
   "packageManager": "pnpm@7.28.0",
   "scripts": {
     "dev": "vite",
