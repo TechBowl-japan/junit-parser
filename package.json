@@ -5,7 +5,10 @@
   "version": "0.0.0",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE.Apache",
+    "LICENSE.MIT"
   ],
   "main": "./dist/junit-parser.umd.cjs",
   "module": "./dist/junit-parser.js",
@@ -16,7 +19,7 @@
     }
   },
   "types": "./dist/index.d.ts",
-  "packageManager": "pnpm@7.28.0",
+  "packageManager": "pnpm@7.29.3",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
