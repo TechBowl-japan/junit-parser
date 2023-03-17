@@ -23,9 +23,7 @@
       "require": "./dist/cjs/mocha.cjs"
     },
     "./types": {
-      "import": "./dist/es/index.js",
-      "types": "./dist/types.d.ts",
-      "require": "./dist/cjs/index.cjs"
+      "types": "./dist/types.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
