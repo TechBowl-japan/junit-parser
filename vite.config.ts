@@ -8,16 +8,18 @@ export default defineConfig({
   plugins: [dts()],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: {
+        index: resolve(__dirname, 'src/index.ts'),
+        mocha: resolve(__dirname, 'src/mocha/index.ts'),
+      },
       name: '@techtrain/junit-parser',
-      fileName: 'junit-parser',
       formats: ['es', 'cjs'],
+      fileName: (format, entryName) => {
+        return `${format}/${entryName}.${format === 'cjs' ? 'cjs' : 'js'}`
+      },
     },
     rollupOptions: {
-      external: [
-        'fast-xml-parser',
-        'he',
-      ],
+      external: ['fast-xml-parser', 'he'],
       output: {},
     },
   },
