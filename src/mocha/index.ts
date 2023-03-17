@@ -1,9 +1,5 @@
-import { MochaError, TestReport } from './types'
-import {
-  JUnitFailure,
-  JUnitTestReport,
-  JUnitTestSuite,
-} from '../types'
+import type { MochaError, TestReport } from './types.js'
+import type { JUnitFailure, JUnitTestReport, JUnitTestSuite } from '../types.js'
 
 const flattenTestSuites = (
   suites: JUnitTestSuite[],

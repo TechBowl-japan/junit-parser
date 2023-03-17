@@ -3,7 +3,6 @@
   "description": "A JUnit XML parser.",
   "license": "MIT OR Apache-2.0",
   "version": "0.0.0",
-  "type": "module",
   "files": [
     "dist",
     "README.md",
@@ -14,12 +13,19 @@
   "module": "./dist/es/index.js",
   "exports": {
     ".": {
-      "import": "./dist/es/index.cjs",
+      "import": "./dist/es/index.js",
+      "types": "./dist/index.d.ts",
       "require": "./dist/cjs/index.cjs"
     },
     "./mocha": {
-      "import": "./dist/es/mocha.cjs",
+      "import": "./dist/es/mocha.js",
+      "types": "./dist/mocha/index.d.ts",
       "require": "./dist/cjs/mocha.cjs"
+    },
+    "./types": {
+      "import": "./dist/es/index.js",
+      "types": "./dist/types.d.ts",
+      "require": "./dist/cjs/index.cjs"
     }
   },
   "types": "./dist/index.d.ts",
@@ -39,14 +45,14 @@
   },
   "devDependencies": {
     "@types/he": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0",
-    "eslint": "^8.35.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
     "prettier": "^2.8.4",
-    "typescript": "^4.9.3",
-    "vite": "^4.1.0",
-    "vite-plugin-dts": "^2.0.2",
-    "vitest": "^0.29.2"
+    "typescript": "^5.0.2",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.1.0",
+    "vitest": "^0.29.3"
   },
   "dependencies": {
     "fast-xml-parser": "^4.1.3",

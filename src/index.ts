@@ -1,10 +1,10 @@
 import { XMLParser } from 'fast-xml-parser'
-import {
+import type {
   JUnitFailure,
   JUnitTestCase,
   JUnitTestReport,
   JUnitTestSuite,
-} from '~/types'
+} from '~/types.js'
 import * as he from 'he'
 
 interface XMLNode {
